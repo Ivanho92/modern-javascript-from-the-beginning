@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "My title",
+      "body": "My body",
+      "id": 1
+    },
+    {
+      "title": "My new post 5",
+      "body": "Hello 5",
+      "id": 2
+    },
+    {
+      "title": "Test test test",
+      "body": "fsfdsfds",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+form {
+    margin-top: 25px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.alert {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    position: relative;
+}
+
+.success {
+    background-color: darkgreen;
+}
+
+.danger {
+    background-color: darkred;
+}
+
+div.success strong:before {
+    content: "✓"
+}
+
+div.danger strong:before {
+    content: "⚠"
+}
+
+.delete-button {
+    padding: 0 10px;
+    color: white;
+}
+
+.delete-button-table {
+    background-color: darkred;
+}
+
+.delete-button-message {
+    background-color: inherit;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+
+.delete-button:hover, .delete-button:focus {
+    filter: brightness(120%);
+    color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tasks List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card white">
+                    <div class="card-content">
+
+                        <h2 class="center-align">Tasks List</h2>
+
+                        <div class="row">
+                            <form class="col s12" id="form">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="new_task" type="text" class="validate">
+                                        <label for="new_task">New task</label>
+                                    </div>
+                                    <button type="submit" id="add_task" class="waves-effect waves-light btn" id="add_task">Add Task</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="divider"></div>
+
+                        <h5 class="center-align">My tasks</h5>
+
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="filter_input" type="text" class="validate">
+                                    <label for="filter_input">Filter tasks</label>
+                                </div>
+                            </div>
+                        </form>
+
+                        <ul class="collection"></ul>
+
+                        <a id="remove_all_tasks" class="waves-effect waves-light btn blue-grey darken-4">Clear tasks</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
